@@ -16,7 +16,7 @@ namespace Vizsgaremek.ViewModels
         {
             get
             {
-                return programInfo.Version;
+                return programInfo.Version.ToString();
             }
         }
 

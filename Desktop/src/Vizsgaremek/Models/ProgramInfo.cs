@@ -9,16 +9,16 @@ namespace Vizsgaremek.Models
 {
     public class ProgramInfo
     {
-        private string version;
+        private Version version;
         private string authors;
 
-        public string Version
+        public Version Version
         {
             get
             {
                 var assembly = Assembly.GetExecutingAssembly();
                 var assemblyVerzio = assembly.GetName().Version;
-                return assemblyVerzio.ToString();
+                return assemblyVerzio;
             }
         }
         public string Authors
