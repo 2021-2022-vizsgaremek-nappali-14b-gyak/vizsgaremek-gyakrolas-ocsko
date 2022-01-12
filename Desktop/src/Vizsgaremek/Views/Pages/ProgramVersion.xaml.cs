@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 using Vizsgaremek.Navigation;
 using Vizsgaremek.ViewModels;
 
-namespace Vizsgaremek.Pages
+namespace Vizsgaremek.Views.Pages
 {
     /// <summary>
     /// Interaction logic for ProgramVersion.xaml
